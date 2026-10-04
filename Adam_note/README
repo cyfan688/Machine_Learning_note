@@ -1,0 +1,5 @@
+Adam is a combination of RMSProp and AdaGrad.
+From my perspective, RMSProp doesn't have bias correction, which may lead to a really large variance.
+For example, when $\beta_2 = 0.999999$ and $g_1 = 2$, the first step of RMSProp equals $1000\alpha$,
+but for Adam, it is only $\alpha$ itself.
+AdaGrad is a special case of Adam when $\beta_1 = 0$ and $\beta_2$ is close to 1.
