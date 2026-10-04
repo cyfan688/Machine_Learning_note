@@ -2,3 +2,4 @@ Basic understanding of SAC.
 The original SAC explicitly optimizes a state value function, while the later version removes this value network and instead introduces automatic optimization of the temperature parameter alpha.
 The soft value can be computed directly from the policy and Q-functions, making the value network unnecessary,
 while alpha controls the entropy level. I am still trying to understand this transition more clearly.
+The notes mention DDPG and TD3 as well.
