@@ -1,0 +1,4 @@
+This is all I know about Transformer.
+If you want to see the understanding of the implement, you can refer to the file RL-lab/transformer_reproduction.
+And I think DROPOUT is an important part of the reproduction, but the paper doesn't mention details.
+And the reproduction will definitely help you get a deeper understanding of Transformer.
